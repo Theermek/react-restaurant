@@ -1,6 +1,5 @@
 import React from 'react';
-
-import { images } from '../../constants';
+import {images} from '../../constants';
 import './AboutUs.css';
 
 const AboutUs = () => (
@@ -12,18 +11,18 @@ const AboutUs = () => (
     <div className="app__aboutus-content flex__center">
       <div className="app__aboutus-content_about">
         <h1 className="headtext__cormorant">О нас</h1>
-        <img src={images.spoon} alt="about_spoon" className="spoon__img" />
+        <img src={images.images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">мы греки мы греки мы греки мы греки мы греки мы греки мы греки мы греки мы греки мы греки мы греки мы греки мы греки мы греки мы греки мы греки </p>
         <button type="button" className="custom__button">Узнать больше</button>
       </div>
 
       <div className="app__aboutus-content_knife flex__center">
-        <img src={images.knife} alt="about_knife" />
+        <img src={images.images.knife} alt="about_knife" />
       </div>
 
       <div className="app__aboutus-content_history">
         <h1 className="headtext__cormorant">Наша история</h1>
-        <img src={images.spoon} alt="about_spoon" className="spoon__img" />
+        <img src={images.images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">история античности история античности история античности история античности история античности история античности история античности история античности </p>
         <button type="button" className="custom__button">Узнать больше</button>
       </div>

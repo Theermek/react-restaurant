@@ -24,7 +24,7 @@ import ioanidis from '../assets/ioanidis.png';
 import food from '../assets/food.png';
 import glass from '../assets/glass.png';
 
-let images = {
+const images = {
   bg,
   chef,
   G,
